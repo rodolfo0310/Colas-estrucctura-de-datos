@@ -5,7 +5,7 @@ class cola
     {
         static void Main(string[] args)
         {
-            //Bryan Rodríguez.
+         
             Queue<int> elementos = new Queue<int>();
 
             //Anadiendo elementos a la cola
@@ -15,7 +15,6 @@ class cola
                 elementos.Enqueue(elemento);
             }
 
-            //LEIDY DE LEON
             //Leer un elemento en una cola
             //Imprimimos el iterador que apunta hacia la colección
             Console.WriteLine ("Leyendo la cola");
